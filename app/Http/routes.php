@@ -46,3 +46,7 @@ Route::get('/site', function () {
 });
 
 Route::get('/product','ProductController@index');
+Route::resource('panda', 'PandaController');
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

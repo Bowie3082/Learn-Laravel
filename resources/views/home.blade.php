@@ -5,11 +5,10 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">ยินดีต้อนรับ</div>
+                <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
-                    <img src="{{ asset('images\IMG_6086.JPG') }}"  width="50px" height="50px" alt="">
+                    You are logged in!
                 </div>
             </div>
         </div>
